@@ -1,0 +1,39 @@
+/* src/components/Quotes.css */
+.quotes {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .quote-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .quote-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .quote-card p {
+    font-size: 1rem;
+    color: #333;
+    font-style: italic;
+    margin: 0;
+  }
+  
+  .quote-card cite {
+    font-size: 0.9rem;
+    text-align: right;
+    display: block;
+    margin-top: 10px;
+    color: #666;
+  }
+  
